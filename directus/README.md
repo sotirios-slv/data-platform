@@ -1,5 +1,3 @@
 # Directus
 
 ## Pre-requisites
-
-
