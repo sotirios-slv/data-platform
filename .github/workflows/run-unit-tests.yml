@@ -25,11 +25,8 @@ jobs:
       - name: Install dependencies
         run: |
           cd directus
-          pipenv install
+          pip install requirements.txt
           cd ..
       - name: Test with pytest
         run: |
-          pip install pytest
-          cd directus
           pytest
-          cd ..
