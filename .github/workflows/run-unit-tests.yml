@@ -6,22 +6,27 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.9","3.10"]
+        python-version: ["3.11"]
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-          cache: 'pip'
+      - name: Install pipenv
+        run: |
+          python -m pip install --upgrade pipenv wheel
+      - id: cache-pipenv
+        uses: actions/cache@v1
+        with:
+          path: ~/.local/share/virtualenvs
+          key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pipenv
           cd directus
-          pipenv lock -r > requirements.txt
+          pipenv install
           cd ..
-          pip install -r directus/requirements.txt
       - name: Test with pytest
         run: |
           pytest
