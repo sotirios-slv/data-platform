@@ -29,4 +29,6 @@ jobs:
           cd ..
       - name: Test with pytest
         run: |
+          cd directus
           pytest
+          cd ..
