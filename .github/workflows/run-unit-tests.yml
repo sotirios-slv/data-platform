@@ -23,6 +23,8 @@ jobs:
       #     key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
       - name: Install dependencies
+        env:
+          DIRECTUS_STATIC_TOKEN: ${{ secrets.DIRECTUS_STATIC_TOKEN }}
         run: |
           cd directus
           pip install -r requirements.txt
