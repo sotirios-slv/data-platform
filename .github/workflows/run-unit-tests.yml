@@ -5,6 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     environment: testing
+    env:
+      DIRECTUS_STATIC_TOKEN: ${{ secrets.DIRECTUS_STATIC_TOKEN }}
+      DIRECTUS_URL: ${{ secrets.DIRECTUS_URL }}
     strategy:
       matrix:
         python-version: ["3.11"]
@@ -24,9 +27,6 @@ jobs:
       #     key: ${{ runner.os }}-pipenv-${{ hashFiles('**/Pipfile.lock') }}
 
       - name: Install dependencies
-        env:
-          DIRECTUS_STATIC_TOKEN: ${{ secrets.DIRECTUS_STATIC_TOKEN }}
-          DIRECTUS_URL: ${{ secrets.DIRECTUS_URL }}
         run: |
           cd directus
           pip install -r requirements.txt
