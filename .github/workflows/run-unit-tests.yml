@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd directus
-          pip install requirements.txt
+          pip install -r requirements.txt
           cd ..
       - name: Test with pytest
         run: |
