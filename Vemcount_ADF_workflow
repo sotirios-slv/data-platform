@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T22:22:14.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="6pliW8xUqjXYiu-K0Oa9" type="github"><diagram name="Page-1" id="ISWhUSD_Nqu2YMILqQ9G">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-02T04:33:41.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="cz7E11x07BHLP3ysbe28" version="20.8.23" type="github">
+  <diagram name="Page-1" id="ISWhUSD_Nqu2YMILqQ9G">
+    <mxGraphModel dx="2074" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="200" width="236.69" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="447.69" y="200" width="560" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.file;aspect=fixed;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="261.44" y="430.47" width="35.8" height="82.06" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_lake_resource_icon;" vertex="1" parent="1">
+          <mxGeometry x="510" y="437.53" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="850" y="434" width="80" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.oracleDataCenter;fillColor=#ffffff;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="236.03" y="249" width="86.62" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="487.69" y="249" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="mt_5B0CDenvEXzGlkOZA-9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#5dd7f8;shape=mxgraph.azure.sql_database_sql_azure;" vertex="1" parent="1">
+          <mxGeometry x="680" y="437.53000000000003" width="80" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
